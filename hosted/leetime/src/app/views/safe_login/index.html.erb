@@ -1,0 +1,11 @@
+<h2> Secret </h2>
+<form action="login" method="POST">
+  <input type="password" placeholder="Secret" name="password" autofocus>
+  <input type="submit" value="Submit">
+</form>
+<div id='response'>
+  <% if flash['time'] %>
+    Response time: <%= flash['time'] %>
+  <% end %>
+</div>
+<!-- We heard that the secret starts with letter 'f', good luck! --> 

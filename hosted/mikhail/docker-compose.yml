@@ -1,0 +1,9 @@
+version: '3'
+services:
+  bsk-mikhail:
+    build: .
+    command: nsjail -Ml --port 37645 --user 99999 --group 99999  --disable_proc --chroot /task --time_limit 30 -R /lib/ -R /lib64/ -R /usr/lib/ -R /bin/ -R /usr/bin/factor story
+    ports:
+      - "40331:37645"
+    restart: always
+    privileged: true

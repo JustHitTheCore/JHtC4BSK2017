@@ -1,0 +1,9 @@
+version: '3'
+services:
+  labyrinth:
+    build: .
+    command: nsjail -Ml --port 37895 --user 99999 --group 99999  --max_conns_per_ip 3 --disable_proc --chroot /task --time_limit 300 -R /lib/ -R /lib64/ -R /usr/lib/ /labyrinth_server
+    ports:
+      - "31337:37895"
+    restart: always
+    privileged: true

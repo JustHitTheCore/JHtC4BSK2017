@@ -1,0 +1,10 @@
+version: '3'
+services:
+  bsk-barsa:
+    build: .
+    command: gunicorn -b 0.0.0.0:8000 -w 3 app:app
+    ports:
+      - "30902:8000"
+    restart: always
+    environment:
+      - SECRET_KEY_BASE=aASD()A&(*@!#YDSAJKCZX__xzcZC_CKZLXCJxklCJ@#*JEQDaS

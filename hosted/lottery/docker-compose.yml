@@ -1,0 +1,9 @@
+version: '3'
+services:
+  bsk-lottery:
+    build: .
+    command: nsjail -Ml --port 37623 --user 99999 --group 99999 --disable_proc --chroot /task --time_limit 90 -R /lib/ -R /lib64/ -R /usr/lib/ /lottery
+    ports:
+      - "40011:37623"
+    restart: always
+    privileged: true

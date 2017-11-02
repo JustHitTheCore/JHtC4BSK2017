@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block body %}
+{% if user %}
+  Are you silly {{ user.username }}?<br/>
+  <img src="{{ user.flag }}" />
+{% else %}
+  Login first
+{% endif %}
+{% endblock %}

@@ -1,0 +1,9 @@
+version: '3'
+services:
+  bsk-pow-man:
+    build: .
+    command: nsjail -Ml --port 37665 --user 99999 --group 99999  --disable_proc --chroot /task --time_limit 18 -R /lib/ -R /lib64/ -R /usr/lib/ -R /usr/bin/python3 -R /etc/passwd -R /bin/ /usr/bin/python3 /pow_test.py
+    ports:
+      - "42100:37665"
+    restart: always
+    privileged: true

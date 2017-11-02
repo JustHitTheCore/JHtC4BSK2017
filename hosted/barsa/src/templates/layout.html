@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Barsa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+<!-- Do not look at robots.txt -->
+    <div id="menu">
+        <div class="wrapper">
+        {% if user %}
+        <a href="{{url_for('logout')}}"><div class="circle no1">Logout</div></a>
+        <a href="/flag"><div class="circle no2">Get a flag</div></a>
+        {% else %}
+        <a href="{{url_for('login')}}"><div class="circle no1">Login</div></a>
+        <a href="{{url_for('register')}}"><div class="circle no2">Register</div></a>
+        {% endif %}
+        <a href="/"><div class="circle no3">F1sh</div></a>
+        <a href="/"><div class="circle no4">P4rrot</div></a>
+        </div>
+    </div>
+
+    {% if flash %}
+    <div id="flash">{{ flash }}</div>
+    {% endif %}
+
+    <div id="container">
+    {% block body %}{% endblock %}
+    </div>
+        <span id="footer">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </span>
+
+</body>
+</html>

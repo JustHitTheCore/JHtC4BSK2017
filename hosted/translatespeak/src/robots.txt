@@ -1,0 +1,1486 @@
+# robots.txt is for real robots!
+# go away you human
+
+User-agent: *
+Disallow: .htaccess
+Disallow: .htpasswd
+Disallow: .meta
+Disallow: .web
+Disallow: access_log
+Disallow: cgi
+Disallow: cgi-bin
+Disallow: cgi-pub
+Disallow: cgi-script
+Disallow: dummy
+Disallow: error
+Disallow: error_log
+Disallow: htdocs
+Disallow: httpd
+Disallow: httpd.pid
+Disallow: icons
+Disallow: index.html
+Disallow: logs
+Disallow: manual
+Disallow: phf
+Disallow: printenv
+Disallow: server-info
+Disallow: server-status
+Disallow: status
+Disallow: test-cgi
+Disallow: tmp
+Disallow: ~bin
+Disallow: ~ftp
+Disallow: ~nobody
+Disallow: ~root
+Disallow: CFIDE
+Disallow: CFIDE/administrator
+Disallow: CFIDE/administrator/aboutcf.cfm
+Disallow: CFIDE/administrator/Application.cfm
+Disallow: CFIDE/administrator/checkfile.cfm
+Disallow: CFIDE/administrator/enter.cfm
+Disallow: CFIDE/administrator/header.cfm
+Disallow: CFIDE/administrator/homefile.cfm
+Disallow: CFIDE/administrator/homepage.cfm
+Disallow: CFIDE/administrator/index.cfm
+Disallow: CFIDE/administrator/left.cfm
+Disallow: CFIDE/administrator/linkdirect.cfm
+Disallow: CFIDE/administrator/login.cfm
+Disallow: CFIDE/administrator/logout.cfm
+Disallow: CFIDE/administrator/navserver.cfm
+Disallow: CFIDE/administrator/right.cfm
+Disallow: CFIDE/administrator/tabs.cfm
+Disallow: CFIDE/administrator/welcome.cfm
+Disallow: CFIDE/administrator/welcomedoc.cfm
+Disallow: CFIDE/administrator/welcomeexapps.cfm
+Disallow: CFIDE/administrator/welcomefooter.cfm
+Disallow: CFIDE/administrator/welcomegetstart.cfm
+Disallow: CFIDE
+Disallow: CFIDE/administrator
+Disallow: CFIDE/administrator/aboutcf.cfm
+Disallow: CFIDE/administrator/Application.cfm
+Disallow: CFIDE/administrator/checkfile.cfm
+Disallow: CFIDE/administrator/enter.cfm
+Disallow: CFIDE/administrator/header.cfm
+Disallow: CFIDE/administrator/homefile.cfm
+Disallow: CFIDE/administrator/homepage.cfm
+Disallow: CFIDE/administrator/index.cfm
+Disallow: CFIDE/administrator/left.cfm
+Disallow: CFIDE/administrator/linkdirect.cfm
+Disallow: CFIDE/administrator/login.cfm
+Disallow: CFIDE/administrator/logout.cfm
+Disallow: CFIDE/administrator/navserver.cfm
+Disallow: CFIDE/administrator/right.cfm
+Disallow: CFIDE/administrator/tabs.cfm
+Disallow: CFIDE/administrator/welcome.cfm
+Disallow: CFIDE/administrator/welcomedoc.cfm
+Disallow: CFIDE/administrator/welcomeexapps.cfm
+Disallow: CFIDE/administrator/welcomefooter.cfm
+Disallow: CFIDE/administrator/welcomegetstart.cfmservlet/HelloCS
+Disallow: servlet/ContentServer
+Disallow: servlet/Satellite
+Disallow: servlet/CatalogManager
+Disallow: servlet/BlobServer
+Disallow: servlet/TreeManager
+Disallow: servlet/CookieServer
+Disallow: servlet/CacheServer
+Disallow: servlet/EvalServer
+Disallow: servlet/DebugServer
+Disallow: servlet/FlushServer
+Disallow: servlet/SeedDispatchServer
+Disallow: servlet/Inventory
+Disallow: servlet/SyncSeedDispatchServer
+Disallow: servlet/PageDispatchServer
+Disallow: servlet/DispatchManager
+Disallow: servlet
+Disallow: HelloCS
+Disallow: ContentServer
+Disallow: Satellite
+Disallow: CatalogManager
+Disallow: BlobServer
+Disallow: TreeManager
+Disallow: CookieServer
+Disallow: CacheServer
+Disallow: EvalServer
+Disallow: DebugServer
+Disallow: FlushServer
+Disallow: SeedDispatchServer
+Disallow: Inventory
+Disallow: SyncSeedDispatchServer
+Disallow: PageDispatchServer
+Disallow: DispatchManager
+Disallow: Xcelerate/Admin/LoginPage.html
+Disallow: Xcelerate
+Disallow: Admin
+Disallow: LoginPage
+Disallow: LoginPage.html
+Disallow: Xcelerate/LoginPage.html
+Disallow: futuretense_cs/adminforms.html
+Disallow: futuretense_cs
+Disallow: adminforms
+Disallow: adminforms.html
+Disallow: futuretense
+Disallow: openmarket
+Disallow: fatwire
+Disallow: divine
+Disallow: contentserver
+Disallow: xcelerate
+Disallow: assetmaker
+Disallow: CFIDE
+Disallow: CFIDE/administrator
+Disallow: CFIDE/administrator/aboutcf.cfm
+Disallow: CFIDE/administrator/Application.cfm
+Disallow: CFIDE/administrator/checkfile.cfm
+Disallow: CFIDE/administrator/enter.cfm
+Disallow: CFIDE/administrator/header.cfm
+Disallow: CFIDE/administrator/homefile.cfm
+Disallow: CFIDE/administrator/homepage.cfm
+Disallow: CFIDE/administrator/index.cfm
+Disallow: CFIDE/administrator/left.cfm
+Disallow: CFIDE/administrator/linkdirect.cfm
+Disallow: CFIDE/administrator/login.cfm
+Disallow: CFIDE/administrator/logout.cfm
+Disallow: CFIDE/administrator/navserver.cfm
+Disallow: CFIDE/administrator/right.cfm
+Disallow: CFIDE/administrator/tabs.cfm
+Disallow: CFIDE/administrator/welcome.cfm
+Disallow: CFIDE/administrator/welcomedoc.cfm
+Disallow: CFIDE/administrator/welcomeexapps.cfm
+Disallow: CFIDE/administrator/welcomefooter.cfm
+Disallow: CFIDE/administrator/welcomegetstart.cfmservlet/HelloCS
+Disallow: servlet/ContentServer
+Disallow: servlet/Satellite
+Disallow: servlet/CatalogManager
+Disallow: servlet/BlobServer
+Disallow: servlet/TreeManager
+Disallow: servlet/CookieServer
+Disallow: servlet/CacheServer
+Disallow: servlet/EvalServer
+Disallow: servlet/DebugServer
+Disallow: servlet/FlushServer
+Disallow: servlet/SeedDispatchServer
+Disallow: servlet/Inventory
+Disallow: servlet/SyncSeedDispatchServer
+Disallow: servlet/PageDispatchServer
+Disallow: servlet/DispatchManager
+Disallow: servlet
+Disallow: HelloCS
+Disallow: ContentServer
+Disallow: Satellite
+Disallow: CatalogManager
+Disallow: BlobServer
+Disallow: TreeManager
+Disallow: CookieServer
+Disallow: CacheServer
+Disallow: EvalServer
+Disallow: DebugServer
+Disallow: FlushServer
+Disallow: SeedDispatchServer
+Disallow: Inventory
+Disallow: SyncSeedDispatchServer
+Disallow: PageDispatchServer
+Disallow: DispatchManager
+Disallow: Xcelerate/Admin/LoginPage.html
+Disallow: Xcelerate
+Disallow: Admin
+Disallow: LoginPage
+Disallow: LoginPage.html
+Disallow: Xcelerate/LoginPage.html
+Disallow: futuretense_cs/adminforms.html
+Disallow: futuretense_cs
+Disallow: adminforms
+Disallow: adminforms.html
+Disallow: futuretense
+Disallow: openmarket
+Disallow: fatwire
+Disallow: divine
+Disallow: contentserver
+Disallow: xcelerate
+Disallow: assetmakerexamples
+Disallow: examples/jsp/index.html
+Disallow: examples/servlets/index.html
+Disallow: examples/servlet/HelloWorldExample
+Disallow: examples/servlet/org.apache.catalina.INVOKER.HelloWorldExample
+Disallow: examples/servlet/snoop
+Disallow: examples/servlet/SnoopServlet
+Disallow: examples/servlet/org.apache.catalina.INVOKER.SnoopServlet
+Disallow: examples/servlet/TroubleShooter
+Disallow: examples/servlet/org.apache.catalina.INVOKER.TroubleShooter
+Disallow: examples/jsp/snp/snoop.jsp
+Disallow: examples/jsp/source.jsp
+Disallow: servlet/default/
+Disallow: servlet/org.apache.catalina.servlets.DefaultServlet/
+Disallow: examples/servlet/default/jsp/snp/snoop.jsp
+Disallow: examples/servlet/default/jsp/source.jsp
+Disallow: examples/servlet/org.apache.catalina.servlets.DefaultServlet/jsp/snp/snoop.jsp
+Disallow: examples/servlet/org.apache.catalina.servlets.DefaultServlet/jsp/source.jsp
+Disallow: manager
+Disallow: tomcat-docs
+Disallow: webdav
+Disallow: webdav/index.html
+Disallow: webdav/servlet/webdav/
+Disallow: webdav/servlet/org.apache.catalina.servlets.WebdavServlet/
+Disallow: servlet/org.apache.catalina.servlets.WebdavServlet/
+Disallow: servlet/org.apache.catalina.INVOKER.org.apache.catalina.servlets.WebdavServlet/
+Disallow: examples/servlet/org.apache.catalina.servlets.WebdavServlet/jsp/snp/snoop.jsp
+Disallow: examples/servlet/org.apache.catalina.servlets.WebdavServlet/jsp/source.jsp
+Disallow: servlet/org.apache.catalina.servlets.SnoopAllServlet
+Disallow: servlet/org.apache.catalina.INVOKER.org.apache.catalina.servlets.SnoopAllServlet
+Disallow: servlet/org.apache.catalina.servlets.ManagerServlet
+Disallow: servlet/org.apache.catalina.servlets.HTMLManagerServlet
+Disallow: servlet/org.apache.catalina.servlets.InvokerServlet/org.apache.catalina.servlets.SnoopAllServlet
+Disallow: servlet/org.apache.catalina.servlets.InvokerServlet/org.apache.catalina.servlets.DefaultServlet/tomcat.gif
+Disallow: servlet/org.apache.catalina.servlets.DefaultServlet/tomcat.gif
+Disallow: servlet/org.apache.catalina.INVOKER.org.apache.catalina.servlets.DefaultServlet/tomcat.gif
+Disallow: jsp-examples
+
+User-agent: administrazio
+Disallow: /0
+
+User-agent: administrazioa
+Disallow: /00
+
+User-agent: argitalpenak
+Disallow: /01
+
+User-agent: artxiboa
+Disallow: /02
+
+User-agent: ataria
+Disallow: /03
+
+User-agent: aupa
+Disallow: /1
+
+User-agent: aurrera
+Disallow: /10
+
+User-agent: artxiboa
+Disallow: /100
+
+User-agent: berri
+Disallow: /1000
+
+User-agent: bidali
+Disallow: /101
+
+User-agent: bilatu
+Disallow: /102
+
+User-agent: buzoia
+Disallow: /103
+
+User-agent: blogak
+Disallow: /1998
+
+User-agent: bai
+Disallow: /1999
+
+User-agent: besteak
+Disallow: /1x1
+
+User-agent: copyleft
+Disallow: /2
+
+User-agent: dominioak
+Disallow: /20
+
+User-agent: dataz
+Disallow: /200
+
+User-agent: dokumentuak
+Disallow: /2000
+
+User-agent: diaspora
+Disallow: /2001
+
+User-agent: erreala
+Disallow: /2002
+
+User-agent: enpresak
+Disallow: /2003
+
+User-agent: egutegia
+Disallow: /2004
+
+User-agent: erakundeak
+Disallow: /2005
+
+User-agent: ez
+Disallow: /2006
+
+User-agent: euskara
+Disallow: /2007
+
+User-agent: estatistikak
+Disallow: /3
+
+User-agent: fitxategia
+Disallow: /30
+
+User-agent: foru
+Disallow: /300
+
+User-agent: gestio
+Disallow: /@
+
+User-agent: gora
+Disallow: /A
+
+User-agent: gidak
+Disallow: /About
+
+User-agent: gizartea
+Disallow: /AboutUs
+
+User-agent: hizkuntza
+Disallow: /Admin
+
+User-agent: hasi
+Disallow: /Administration
+
+User-agent: hezkuntza
+Disallow: /Archive
+
+User-agent: ikusi
+Disallow: /Articles
+
+User-agent: interlagunok
+Disallow: /B
+
+User-agent: informazio
+Disallow: /BackOffice
+
+User-agent: konexioak
+Disallow: /Blog
+
+User-agent: loturak
+Disallow: /Books
+
+User-agent: media
+Disallow: /Business
+
+User-agent: makusi
+Disallow: /C
+
+User-agent: mezuak
+Disallow: /CPAN
+
+User-agent: oharra
+Disallow: /CVS
+
+User-agent: politika
+Disallow: /CYBERDOCS
+
+User-agent: proiektua
+Disallow: /CYBERDOCS25
+
+User-agent: saioa
+Disallow: /CYBERDOCS31
+
+User-agent: sustapena
+Disallow: /ChangeLog
+
+User-agent: txostena
+Disallow: /Computers
+
+User-agent: teknologia
+Disallow: /Contact
+
+User-agent: taula
+Disallow: /ContactUs
+
+User-agent: web
+Disallow: /Content
+
+User-agent: oizartsinimda
+Disallow: /Creatives
+
+User-agent: aoizartsinimda
+Disallow: /D
+
+User-agent: kaneplatigra
+Disallow: /Default
+
+User-agent: aobixtra
+Disallow: /Download
+
+User-agent: airata
+Disallow: /Downloads
+
+User-agent: apua
+Disallow: /E
+
+User-agent: arerrua
+Disallow: /Education
+
+User-agent: aobixtra
+Disallow: /English
+
+User-agent: irreb
+Disallow: /Entertainment
+
+User-agent: iladib
+Disallow: /Events
+
+User-agent: utalib
+Disallow: /Extranet
+
+User-agent: aiozub
+Disallow: /F
+
+User-agent: kagolb
+Disallow: /FAQ
+
+User-agent: iab
+Disallow: /G
+
+User-agent: kaetseb
+Disallow: /Games
+
+User-agent: tfelypoc
+Disallow: /Global
+
+User-agent: kaoinimod
+Disallow: /Graphics
+
+User-agent: zatad
+Disallow: /H
+
+User-agent: kautnemukod
+Disallow: /HTML
+
+User-agent: aropsaid
+Disallow: /Health
+
+User-agent: alaerre
+Disallow: /Help
+
+User-agent: kaserpne
+Disallow: /Home
+
+User-agent: aigetuge
+Disallow: /I
+
+User-agent: kaednukare
+Disallow: /INSTALL_admin
+
+User-agent: ze
+Disallow: /Image
+
+User-agent: araksue
+Disallow: /Images
+
+User-agent: kakitsitatse
+Disallow: /Index
+
+User-agent: aigetaxtif
+Disallow: /Internet
+
+User-agent: urof
+Disallow: /J
+
+User-agent: oitseg
+Disallow: /Java
+
+User-agent: arog
+Disallow: /L
+
+User-agent: kadig
+Disallow: /Legal
+
+User-agent: aetrazig
+Disallow: /Links
+
+User-agent: aztnukzih
+Disallow: /Linux
+
+User-agent: isah
+Disallow: /Log
+
+User-agent: aztnukzeh
+Disallow: /Login
+
+User-agent: isuki
+Disallow: /Logs
+
+User-agent: konugalretni
+Disallow: /M
+
+User-agent: oizamrofni
+Disallow: /MANIFEST.MF
+
+User-agent: kaoixenok
+Disallow: /META-INF
+
+User-agent: karutol
+Disallow: /Main
+
+User-agent: aidem
+Disallow: /Main_Page
+
+User-agent: isukam
+Disallow: /Media
+
+User-agent: kauzem
+Disallow: /Members
+
+User-agent: arraho
+Disallow: /Menus
+
+User-agent: akitilop
+Disallow: /Misc
+
+User-agent: autkeiorp
+Disallow: /Music
+
+User-agent: aoias
+Disallow: /N
+
+User-agent: anepatsus
+Disallow: /News
+
+User-agent: anetsoxt
+Disallow: /O
+
+User-agent: aigolonket
+Disallow: /OasDefault
+
+User-agent: aluat
+Disallow: /Office
+
+User-agent: bew
+Disallow: /P
+
+User-agent: dministrazio
+Disallow: /PHP
+
+User-agent: dministrazioa
+Disallow: /PDF
+
+User-agent: rgitalpenak
+Disallow: /Pages
+
+User-agent: rtxiboa
+Disallow: /People
+
+User-agent: taria
+Disallow: /Press
+
+User-agent: upa
+Disallow: /Privacy
+
+User-agent: urrera
+Disallow: /Products
+
+User-agent: rtxiboa
+Disallow: /Projects
+
+User-agent: erri
+Disallow: /Publications
+
+User-agent: idali
+Disallow: /R
+
+User-agent: ilatu
+Disallow: /RCS
+
+User-agent: uzoia
+Disallow: /README
+
+User-agent: logak
+Disallow: /RSS
+
+User-agent: ai
+Disallow: /RealMedia
+
+User-agent: esteak
+Disallow: /Research
+
+User-agent: opyleft
+Disallow: /Resources
+
+User-agent: ominioak
+Disallow: /S
+
+User-agent: ataz
+Disallow: /Scripts
+
+User-agent: okumentuak
+Disallow: /Search
+
+User-agent: iaspora
+Disallow: /Security
+
+User-agent: rreala
+Disallow: /Services
+
+User-agent: npresak
+Disallow: /Servlet
+
+User-agent: gutegia
+Disallow: /Servlets
+
+User-agent: rakundeak
+Disallow: /SiteMap
+
+User-agent: z
+Disallow: /SiteServer
+
+User-agent: uskara
+Disallow: /Sites
+
+User-agent: statistikak
+Disallow: /Software
+
+User-agent: itxategia
+Disallow: /Sources
+
+User-agent: oru
+Disallow: /Sports
+
+User-agent: estio
+Disallow: /Statistics
+
+User-agent: ora
+Disallow: /Stats
+
+User-agent: idak
+Disallow: /Support
+
+User-agent: izartea
+Disallow: /T
+
+User-agent: izkuntza
+Disallow: /Technology
+
+User-agent: asi
+Disallow: /Themes
+
+User-agent: ezkuntza
+Disallow: /Travel
+
+User-agent: kusi
+Disallow: /U
+
+User-agent: nterlagunok
+Disallow: /US
+
+User-agent: nformazio
+Disallow: /Utilities
+
+User-agent: onexioak
+Disallow: /V
+
+User-agent: oturak
+Disallow: /Video
+
+User-agent: edia
+Disallow: /W
+
+User-agent: akusi
+Disallow: /W3SVC
+
+User-agent: ezuak
+Disallow: /W3SVC1
+
+User-agent: harra
+Disallow: /W3SVC2
+
+User-agent: olitika
+Disallow: /W3SVC3
+
+User-agent: roiektua
+Disallow: /WEB-INF
+
+User-agent: aioa
+Disallow: /Windows
+
+User-agent: ustapena
+Disallow: /X
+
+User-agent: xostena
+Disallow: /XML
+
+User-agent: eknologia
+Disallow: /_admin
+
+User-agent: aula
+Disallow: /_images
+
+User-agent: eb
+Disallow: /_mem_bin
+
+User-agent: izartsinimda
+Disallow: /_pages
+
+User-agent: oizartsinimda
+Disallow: /_vti_aut
+
+User-agent: aneplatigra
+Disallow: /_vti_bin
+
+User-agent: obixtra
+Disallow: /_vti_cnf
+
+User-agent: irata
+Disallow: /_vti_log
+
+User-agent: pua
+Disallow: /_vti_pvt
+
+User-agent: rerrua
+Disallow: /_vti_rpc
+
+User-agent: obixtra
+Disallow: /a
+
+User-agent: rreb
+Disallow: /aa
+
+User-agent: ladib
+Disallow: /aaa
+
+User-agent: talib
+Disallow: /abc
+
+User-agent: iozub
+Disallow: /about
+
+User-agent: agolb
+Disallow: /about-us
+
+User-agent: ab
+Disallow: /about_us
+
+User-agent: aetseb
+Disallow: /aboutus
+
+User-agent: felypoc
+Disallow: /abstract
+
+User-agent: aoinimod
+Disallow: /academic
+
+User-agent: atad
+Disallow: /academics
+
+User-agent: autnemukod
+Disallow: /access
+
+User-agent: ropsaid
+Disallow: /accessgranted
+
+User-agent: laerre
+Disallow: /accessibility
+
+User-agent: aserpne
+Disallow: /accessories
+
+User-agent: igetuge
+Disallow: /account
+
+User-agent: aednukare
+Disallow: /accountants
+
+User-agent: e
+Disallow: /accounting
+
+User-agent: raksue
+Disallow: /accounts
+
+User-agent: akitsitatse
+Disallow: /achitecture
+
+User-agent: igetaxtif
+Disallow: /action
+
+User-agent: rof
+Disallow: /actions
+
+User-agent: itseg
+Disallow: /active
+
+User-agent: rog
+Disallow: /activities
+
+User-agent: adig
+Disallow: /ad
+
+User-agent: etrazig
+Disallow: /adclick
+
+User-agent: ztnukzih
+Disallow: /add
+
+User-agent: sah
+Disallow: /adlog
+
+User-agent: ztnukzeh
+Disallow: /adm
+
+User-agent: suki
+Disallow: /admin
+
+User-agent: onugalretni
+Disallow: /admin_
+
+User-agent: izamrofni
+Disallow: /admin_login
+
+User-agent: aoixenok
+Disallow: /admin_logon
+
+User-agent: arutol
+Disallow: /adminhelp
+
+User-agent: idem
+Disallow: /administrat
+
+User-agent: sukam
+Disallow: /administration
+
+User-agent: auzem
+Disallow: /administrator
+
+User-agent: rraho
+Disallow: /adminlogin
+
+User-agent: kitilop
+Disallow: /adminlogon
+
+User-agent: utkeiorp
+Disallow: /adminsql
+
+User-agent: oias
+Disallow: /admissions
+
+User-agent: nepatsus
+Disallow: /admon
+
+User-agent: netsoxt
+Disallow: /ads
+
+User-agent: igolonket
+Disallow: /adsl
+
+User-agent: luat
+Disallow: /adv
+
+User-agent: ew
+Disallow: /advanced
+
+User-agent: ministrazio
+Disallow: /advanced_search
+
+User-agent: ministrazioa
+Disallow: /advertise
+
+User-agent: gitalpenak
+Disallow: /advertisement
+
+User-agent: txiboa
+Disallow: /advertising
+
+User-agent: aria
+Disallow: /adview
+
+User-agent: pa
+Disallow: /advisories
+
+User-agent: rrera
+Disallow: /affiliate
+
+User-agent: txiboa
+Disallow: /affiliates
+
+User-agent: rri
+Disallow: /africa
+
+User-agent: dali
+Disallow: /agenda
+
+User-agent: latu
+Disallow: /agent
+
+User-agent: zoia
+Disallow: /agents
+
+User-agent: ogak
+Disallow: /ajax
+
+User-agent: i
+Disallow: /album
+
+User-agent: steak
+Disallow: /albums
+
+User-agent: pyleft
+Disallow: /alert
+
+User-agent: minioak
+Disallow: /alerts
+
+User-agent: taz
+Disallow: /alias
+
+User-agent: kumentuak
+Disallow: /aliases
+
+User-agent: aspora
+Disallow: /all
+
+User-agent: reala
+Disallow: /alpha
+
+User-agent: presak
+Disallow: /alumni
+
+User-agent: utegia
+Disallow: /amazon
+
+User-agent: akundeak
+Disallow: /analog
+
+User-agent: skara
+Disallow: /analysis
+
+User-agent: tatistikak
+Disallow: /announce
+
+User-agent: txategia
+Disallow: /announcements
+
+User-agent: ru
+Disallow: /answer
+
+User-agent: stio
+Disallow: /antispam
+
+User-agent: ra
+Disallow: /antivirus
+
+User-agent: dak
+Disallow: /any
+
+User-agent: zartea
+Disallow: /aol
+
+User-agent: zkuntza
+Disallow: /ap
+
+User-agent: si
+Disallow: /apache
+
+User-agent: zkuntza
+Disallow: /api
+
+User-agent: usi
+Disallow: /apl
+
+User-agent: terlagunok
+Disallow: /apm
+
+User-agent: formazio
+Disallow: /app
+
+User-agent: nexioak
+Disallow: /apple
+
+User-agent: turak
+Disallow: /applet
+
+User-agent: dia
+Disallow: /applets
+
+User-agent: kusi
+Disallow: /appliance
+
+User-agent: zuak
+Disallow: /application
+
+User-agent: arra
+Disallow: /applications
+
+User-agent: litika
+Disallow: /apply
+
+User-agent: oiektua
+Disallow: /apps
+
+User-agent: ioa
+Disallow: /ar
+
+User-agent: stapena
+Disallow: /architecture
+
+User-agent: ostena
+Disallow: /archive
+
+User-agent: knologia
+Disallow: /archives
+
+User-agent: ula
+Disallow: /arrow
+
+User-agent: b
+Disallow: /ars
+
+User-agent: zartsinimda
+Disallow: /art
+
+User-agent: izartsinimda
+Disallow: /article
+
+User-agent: magic
+Disallow: /backup
+
+User-agent: neplatigra
+Disallow: /articles
+
+User-agent: bixtra
+Disallow: /arts
+
+User-agent: rata
+Disallow: /asia
+
+User-agent: ua
+Disallow: /ask
+
+User-agent: errua
+Disallow: /asp
+
+User-agent: bixtra
+Disallow: /aspadmin
+
+User-agent: reb
+Disallow: /aspnet_client
+
+User-agent: adib
+Disallow: /asps
+
+User-agent: alib
+Disallow: /assets
+
+User-agent: ozub
+Disallow: /at
+
+User-agent: golb
+Disallow: /atom
+
+User-agent: b
+Disallow: /attach
+
+User-agent: etseb
+Disallow: /attachments
+
+User-agent: elypoc
+Disallow: /au
+
+User-agent: oinimod
+Disallow: /audio
+
+User-agent: tad
+Disallow: /audit
+
+User-agent: utnemukod
+Disallow: /auth
+
+User-agent: opsaid
+Disallow: /author
+
+User-agent: aerre
+Disallow: /authors
+
+User-agent: serpne
+Disallow: /auto
+
+User-agent: getuge
+Disallow: /automatic
+
+User-agent: ednukare
+Disallow: /automotive
+
+User-agent: aksue
+Disallow: /avatars
+
+User-agent: kitsitatse
+Disallow: /awards
+
+User-agent: getaxtif
+Disallow: /b
+
+User-agent: of
+Disallow: /b1
+
+User-agent: tseg
+Disallow: /back
+
+User-agent: og
+Disallow: /back-up
+
+User-agent: dig
+Disallow: /backdoor
+
+User-agent: trazig
+Disallow: /backend
+
+User-agent: tnukzih
+Disallow: /background
+
+User-agent: ah
+Disallow: /backoffice
+
+User-agent: tnukzeh
+Disallow: /backup
+
+User-agent: uki
+Disallow: /backups
+
+User-agent: nugalretni
+Disallow: /bak
+
+User-agent: zamrofni
+Disallow: /bak-up
+
+User-agent: oixenok
+Disallow: /bakup
+
+User-agent: rutol
+Disallow: /bank
+
+User-agent: dem
+Disallow: /banks
+
+User-agent: ukam
+Disallow: /banner
+
+User-agent: uzem
+Disallow: /banner2
+
+User-agent: raho
+Disallow: /banners
+
+User-agent: itilop
+Disallow: /bar
+
+User-agent: tkeiorp
+Disallow: /base
+
+User-agent: ias
+Disallow: /baseball
+
+User-agent: epatsus
+Disallow: /basic
+
+User-agent: etsoxt
+Disallow: /basket
+
+User-agent: golonket
+Disallow: /basketball
+
+User-agent: uat
+Disallow: /bass
+
+User-agent: w
+Disallow: /batch
+
+User-agent: inistrazio
+Disallow: /bb
+
+User-agent: inistrazioa
+Disallow: /bbs
+
+User-agent: italpenak
+Disallow: /bd
+
+User-agent: xiboa
+Disallow: /bdata
+
+User-agent: ria
+Disallow: /bea
+
+User-agent: a
+Disallow: /bean
+
+User-agent: rera
+Disallow: /beans
+
+User-agent: xiboa
+Disallow: /benefits
+
+User-agent: ri
+Disallow: /beta
+
+User-agent: ali
+Disallow: /bg
+
+User-agent: atu
+Disallow: /bill
+
+User-agent: oia
+Disallow: /billing
+
+User-agent: gak
+Disallow: /bin
+
+User-agent: teak
+Disallow: /bio
+
+User-agent: yleft
+Disallow: /bios
+
+User-agent: inioak
+Disallow: /biz
+
+User-agent: az
+Disallow: /bl
+
+User-agent: umentuak
+Disallow: /black
+
+User-agent: spora
+Disallow: /blank
+
+User-agent: eala
+Disallow: /blocks
+
+User-agent: resak
+Disallow: /blog
+
+User-agent: tegia
+Disallow: /blogger
+
+User-agent: kundeak
+Disallow: /bloggers
+
+User-agent: kara
+Disallow: /blow
+
+User-agent: atistikak
+Disallow: /blue
+
+User-agent: xategia
+Disallow: /board
+
+User-agent: u
+Disallow: /boards
+
+User-agent: tio
+Disallow: /body
+
+User-agent: a
+Disallow: /book
+
+User-agent: ak
+Disallow: /books
+
+User-agent: artea
+Disallow: /bookstore
+
+User-agent: kuntza
+Disallow: /boot
+
+User-agent: i
+Disallow: /bot
+
+User-agent: kuntza
+Disallow: /bots
+
+User-agent: si
+Disallow: /bottom
+
+User-agent: erlagunok
+Disallow: /box
+
+User-agent: ormazio
+Disallow: /boxes
+
+User-agent: exioak
+Disallow: /br
+
+User-agent: urak
+Disallow: /broadband
+
+User-agent: ia
+Disallow: /broken
+
+User-agent: usi
+Disallow: /browse
+
+User-agent: uak
+Disallow: /browser
+
+User-agent: rra
+Disallow: /bsd
+
+User-agent: itika
+Disallow: /bug
+
+User-agent: iektua
+Disallow: /bugs
+
+User-agent: oa
+Disallow: /build
+
+User-agent: tapena
+Disallow: /builder
+
+User-agent: stena
+Disallow: /bulk
+
+User-agent: nologia
+Disallow: /bullet
+
+User-agent: la
+Disallow: /business
+
+User-agent: artsinimda
+Disallow: /buttons
+
+User-agent: zartsinimda
+Disallow: /buy
+
+User-agent: eplatigra
+Disallow: /c
+
+User-agent: ixtra
+Disallow: /ca
+
+User-agent: ata
+Disallow: /cache
+
+User-agent: a
+Disallow: /cachemgr
+
+User-agent: rrua
+Disallow: /cad
+
+User-agent: ixtra
+Disallow: /calendar
+
+User-agent: eb
+Disallow: /campaign
+
+User-agent: dib
+Disallow: /can
+
+User-agent: lib
+Disallow: /canada
+
+User-agent: zub
+Disallow: /captcha
+
+User-agent: olb
+Disallow: /car
+
+User-agent: tseb
+Disallow: /cardinal
+
+User-agent: lypoc
+Disallow: /cards
+
+User-agent: inimod
+Disallow: /career
+
+User-agent: ad
+Disallow: /careers
+
+User-agent: tnemukod
+Disallow: /carofthemonth
+
+User-agent: psaid
+Disallow: /carpet
+
+User-agent: erre
+Disallow: /cars
+
+User-agent: erpne
+Disallow: /cart
+
+User-agent: etuge
+Disallow: /cas
+
+User-agent: dnukare
+Disallow: /cases
+
+User-agent: ksue
+Disallow: /cat
+
+User-agent: itsitatse
+Disallow: /catalog
+
+User-agent: etaxtif
+Disallow: /catalogs
+
+User-agent: f
+Disallow: /catch
+
+User-agent: seg
+Disallow: /categories
+
+User-agent: g
+Disallow: /category
+
+User-agent: ig
+Disallow: /cc
+
+User-agent: razig
+Disallow: /ccs
+
+User-agent: nukzih
+Disallow: /cd
+
+User-agent: h
+Disallow: /cdrom
+
+User-agent: nukzeh
+Disallow: /cert
+
+User-agent: ki
+Disallow: /certenroll
+
+User-agent: ugalretni
+Disallow: /certificate
+
+User-agent: amrofni
+Disallow: /certificates
+
+User-agent: ixenok
+Disallow: /certification
+
+User-agent: utol
+Disallow: /certs
+
+User-agent: em
+Disallow: /cfdocs
+
+User-agent: kam
+Disallow: /cfg
+
+User-agent: zem
+Disallow: /cfide
+
+User-agent: aho
+Disallow: /cgi
+
+User-agent: tilop
+Disallow: /cgi-bin
+
+User-agent: keiorp
+Disallow: /cgi-bin/
+
+User-agent: as
+Disallow: /cgi-exe
+
+User-agent: patsus
+Disallow: /cgi-home
+
+User-agent: tsoxt
+Disallow: /cgi-local
+
+User-agent: olonket
+Disallow: /cgi-perl
+
+User-agent: at
+Disallow: /cgi-sys
+

@@ -1,0 +1,9 @@
+version: '3'
+services:
+  bsk-xor-power:
+    build: .
+    command: nsjail -Ml --port 3001 --user 99999 --group 99999 --disable_proc --chroot /task --time_limit 15 -R /lib/ -R /lib64/ -R /usr/lib/ /xor_power
+    ports:
+      - "40003:3001"
+    restart: always
+    privileged: true

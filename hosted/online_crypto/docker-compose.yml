@@ -1,0 +1,9 @@
+version: '3'
+services:
+  bsk-online-crypto:
+    build: .
+    command: nsjail -Ml --port 37621 --user 99999 --group 99999  --disable_proc --chroot /task --time_limit 30 -R /lib/ -R /lib64/ -R /usr/lib/ /online_crypto
+    ports:
+      - "40008:37621"
+    restart: always
+    privileged: true

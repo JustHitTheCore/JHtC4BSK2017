@@ -1,0 +1,16 @@
+version: '3'
+services:
+  bsk-translatespeak:
+    build: .
+    command: gunicorn -b 0.0.0.0:8000 -t 2 -w 3 app:app --access-logfile - --error-logfile -
+    ports:
+      - "40222:8000"
+    restart: always
+    environment:
+      - JHtC4BSK_FIRST_FLAG=JHtC4BSK{Gr34t_j0b_mr_r0b0t!}
+    volumes:
+      - ./src/:/task:ro
+      - ./flag_2:/tmp/flag_2:ro
+      - ./flag_3:/tmp/flag_3:ro
+    user: jailed
+
