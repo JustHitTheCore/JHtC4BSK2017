@@ -6,6 +6,8 @@ To host it all, you need Docker and docker-compose installed. Then you just fire
 
 The `public` directory contains tasks descriptions and files that were available during the CTF.
 
+If you want to host one particular task, just go to its directory and fire `docker-compose up`.
+
 ### Tasks authors
 
 * Tacet
